@@ -1,0 +1,45 @@
+html {
+    /* background-image: url("../assets/image/abstract-sky-wallpaper-preview.jpg"); */
+    background-size: cover;
+    background-color: darkcyan;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    padding: 1rem 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    /* min-height: 100vh; */
+    text-align: center;
+    justify-content: center;
+}
+
+.game {
+    border: 6px solid gainsboro;
+    margin: 16px;
+    width: auto;
+    height: 6rem;
+    background-color: white;
+    color: white;
+    font-weight: 700;
+}
+
+img {
+    height: 5rem;
+    width: 6rem;
+}
+
+#report {
+    padding: 26px 8px;
+}

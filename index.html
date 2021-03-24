@@ -4,13 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock-Paper-Scissors Game</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body style="text-align: center;">
-    <h1>Rock-Paper-Scissors Game</h1>
-    <h2>Welcome! Let's Play.</h2>
-    <img src="Rock-paper-scissors.svg.png" alt="Game image" height="400px" width="500px">
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Rock-Paper-Scissors Game</h1>
+            <h2>Welcome! Let's Play.</h2>
+        </div>
+        <div id="main">
+            <div class="game">
+                <button id="rock" onclick="playRound('rock')">
+                    <img src="./assets/image/rock.png" alt="rock">
+                </button>
+                <h3>Rock</h3>
+            </div>
+            <div class="game">
+                <button id="paper" onclick="playRound('paper')">
+                    <img src="./assets/image/paper.jpg" alt="paper">
+                </button>
+                <h3>Paper</h3>
+            </div>
+            <div class="game">
+                <button id="scissor" onclick="playRound('scissors')">
+                    <img src="./assets/image/scissor.png" alt="scissor">
+                </button>
+                <h3>Scissors</h3>
+            </div>
+        </div>
+        <div id="report">
+            <p id="computerPlay"></p>
+            <p id="userPlay"></p>
+            <h3 id="result"></h3>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
